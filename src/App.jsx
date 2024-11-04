@@ -1,16 +1,12 @@
-import Card from "./Card";
+
+import './App.css'
+import './Counter.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
-
   return(
-    <>
-    <Card name="Meli" description="Just Trying To Learn React!"></Card>
-    <Card name={20}></Card>
-    <Card></Card>
-    </>
-    // if you check inspect there's a propType warning because of 20.
-  );
-
+    <Counter/>
+  )
 }
 
 export default App
