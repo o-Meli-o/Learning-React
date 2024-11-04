@@ -1,14 +1,16 @@
-import Header from './Header.jsx';
-import Footer from './Footer.jsx';
+import Card from "./Card";
 
 function App() {
+
   return(
     <>
-    <Header></Header>
-    <Footer></Footer>
+    <Card name="Meli" description="Just Trying To Learn React!"></Card>
+    <Card name={20}></Card>
+    <Card></Card>
     </>
-    
+    // if you check inspect there's a propType warning because of 20.
   );
+
 }
 
 export default App
