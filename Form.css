@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    margin: 30px;
+    background-color: antiquewhite;
+}
+.form{
+    display: inline-block;
+    border: 2px rgb(131, 78, 25) solid;
+    border-radius: 7px;
+    text-align: left;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 13px;
+    background-color: rgb(255, 194, 81);
+
+    width: 500px;
+}
+.form p{
+    margin: 5px 0px 5px 0px;
+    max-width: 250px;
+}
+.form input,select,textarea,::placeholder{
+    background-color: rgb(123, 192, 102);
+    color: rgb(110, 69, 49);
+    padding: 2px 5px 2px 5px;
+}
+.form input, textarea{
+    cursor: text;
+}
+.form select,option{
+    cursor: pointer; 
+}
+.form input[type="radio"]{
+    appearance: none;
+    vertical-align: -5px;
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px rgb(123, 192, 102) solid;
+    margin: 2px;
+    padding: 0;
+    
+    cursor: pointer;
+}
+.form input[type="radio"] :checked :hover{
+    outline-color: rgb(99, 155, 82);
+}
+.form input[type="radio"]:checked {
+    background-color: rgb(131, 78, 25);
+}
+.form textarea{
+    min-height: 50px;
+    max-height: 70px;
+    max-width: 200px;
+}
+.form hr{
+    margin: 10px;
+    padding: 1px;
+    background-color:rgb(131, 78, 25);
+    border: none;
+}
+.form h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#submitBtn {
+    margin-top: 20px;
+    padding: 3px;
+    width: 70px;
+    color: rgb(219, 245, 201);
+    background-color: rgb(99, 155, 82);
+    border: 2px rgb(68, 107, 56) solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+#submitBtn :hover{
+    background-color: rgb(68, 107, 56);
+}
