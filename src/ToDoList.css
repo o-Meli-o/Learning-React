@@ -1,0 +1,95 @@
+body{
+    margin: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(248, 255, 199);
+}
+
+.to-do-list{
+    display: inline-block;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: rgb(112, 116, 125);
+    width: 400px;
+}
+.to-do-list h1{
+    font-size: 25px;
+    background-color: rgb(192, 113, 52);
+    border: 2px solid rgb(255, 255, 160);
+    padding: 10px;
+    border-radius: 0px 10px 0px 10px;
+    color: rgb(248, 255, 199);
+}
+.to-do-list input{
+    margin: 20px 0 20px 0;
+    padding: 2px 5px 2px 5px;
+    width: 335px;
+    height: 30px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 160);
+    border: none;
+    border-radius: 3px;
+    color: rgb(139, 139, 0);
+}
+.add-button{
+    padding: 3px;
+    width: 50px;
+    height: 35px;
+    margin-left: 2px;
+    background-color: rgb(134, 233, 123);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.add-button:hover{
+    background-color: rgb(106, 180, 97);
+}
+.to-do-list ol li{
+    appearance: none;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 5px;
+    
+    display: flex;
+}
+.text{
+    flex: 1;
+    
+    line-height: 30px;
+    display: inline-block;
+    text-align: left;
+    background-color: antiquewhite;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    width: 250px;
+    height: 30px;
+}
+.delete-button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin: 0 1px 0 2px;
+    background-color: rgb(255, 143, 143);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.delete-button:hover{
+    background-color: rgb(199, 109, 109);
+}
+.move-button{
+    padding: 5px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 0 1px 0 1px;
+    background-color: rgb(255, 255, 160);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.move-button:hover{
+    background-color: rgb(187, 187, 118);
+}

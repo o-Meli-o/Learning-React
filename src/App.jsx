@@ -1,12 +1,9 @@
-
-import './App.css'
-import './Counter.jsx'
-import Counter from './Counter.jsx'
+import ToDoList from './ToDoList';
 
 function App() {
   return(
-    <Counter/>
-  )
+    <ToDoList/>
+  );
 }
 
 export default App
