@@ -1,0 +1,32 @@
+body{
+    background-image: url(./assets/Picsart_24-10-07_16-22-06-167.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.clock-container{
+    backdrop-filter: blur(3px);
+    width: 100vw;
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+}
+
+.clock{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: beige;
+    display: inline-block;
+    padding: 50px;
+    border: 7px orange solid;
+    border-radius: 50%;
+
+    text-shadow: 3px 3px 5px rgb(160, 100, 0);
+}
